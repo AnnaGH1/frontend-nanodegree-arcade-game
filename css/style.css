@@ -1,3 +1,24 @@
 body {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
     text-align: center;
+    color: #ff44b4;
+}
+
+.msg {
+    display: none;
+    padding: 0.3em;
+    border: 0.1em solid #388017;
+    background-color: #c5ffb5;
+}
+
+.msg--show {
+    display: block;
+}
+
+.restart {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border: 0.2em solid #388017;
 }
